@@ -1,10 +1,10 @@
 ### Connecticut-Real-Estate-2001---2020
 
-Background
+#### Background
 This is an analysis of all listings of real estate sales with a sales price of $2,000 or greater, that occurred between 2001 and 2020 in Connecticut, as collected and maintained by The Office of Policy and Management.
 This dataset was provided by Quantum Analytics, and it includes records such as the town, property address, date of sale, assessed value, sale amount, sales ratio, property type, and more, offering a rich source of insights into the real estate landscape.
 
-Problem Statement
+#### Problem Statement
 Preprocess, analyze, and visualize the real estate sales data, thereby exploring property assessment and generating meaningful insights for informed decision-making.
 Expected outcomes include:
 •	Uncover insights into the accuracy of property assessments, identifying areas where adjustments may be necessary.
@@ -14,7 +14,7 @@ Expected outcomes include:
 •	Investigate the role of non-use codes in property assessment, identifying patterns and potential areas for policy refinement.
 •	Utilize assessor and OPM remarks to improve communication and transparency in the assessment process.
 
-Dataset Features
+#### Dataset Features
 The columns included in the file were:
 1.	Serial Number: Integer, A unique identifier assigned to each record in the dataset.
 2.	List Year: Integer or Date, the year in which the property information was listed or assessed.
@@ -30,23 +30,23 @@ The columns included in the file were:
 12.	Assessor Remarks, String, additional remarks, or comments provided by the assessor related to the property assessment.
 13.	OPM Remarks; String, remarks or comments from the Office of Policy and Management (OPM) related to the property data, providing additional context or information.
 
-Data Exploration
+#### Data Exploration
 Here, I:
 •	Handled the missing values.
 •	Converted the 'Date Recorded' column to a datetime dtype.
 •	Changed 'address' and 'Assesor remarks' columns to proper case.
 •	Changed column-header 'OPM reMARKS' to 'OPM Remarks'.
 
-Key Insights
-Assessment Accuracy
-Market Trends
+#### Key Insights
+Assessment Accuracy.
+Market Trends.
 Generated localized insights.
 Analyzed the impact of the various property types.
 Explored the significance of non use codes in property assessment.
 Compared Assessor Remarks and OPM Remarks.
 
 
-Recommendations
+#### Recommendations
 Stakeholders in the real estate sector can be empowered for better decision-making and improved accuracy in property assessments through the following key strategies:
 •	Firstly, giving real estate professionals access to comprehensive and up-to-date data, including market trends, market research reports, real-time property data, property transactions, and comparable sales, is crucial for informed decision-making.
 •	Investing in data analytics tools and technology can help stakeholders analyze and interpret data effectively, enabling them to identify market trends, assess property values accurately, and make informed investment decisions based on current market conditions and future projections.
